@@ -4,7 +4,7 @@ This project aims to provide a secure and transparent way to store, share, and m
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - **Patient-Controlled Access:** Patients can grant or revoke access to their medical records.
 - **Secure Prescription Storage:** Prescriptions are stored on **IPFS**, and their hash is saved on the **Ethereum Blockchain** to ensure authenticity.
@@ -14,7 +14,7 @@ This project aims to provide a secure and transparent way to store, share, and m
 
 ---
 
-## 🛠️ Tech Stack Used
+## Tech Stack Used
 
 | Layer | Technology |
 |------|------------|
@@ -27,7 +27,7 @@ This project aims to provide a secure and transparent way to store, share, and m
 
 ---
 
-## 🔐 System Workflow (Simplified)
+## System Workflow (Simplified)
 
 1. **User Login:** Wallet authentication using MetaMask.
 2. **Role Assignment:** Users are categorized as Patient / Doctor / Medical Staff.
@@ -38,32 +38,11 @@ This project aims to provide a secure and transparent way to store, share, and m
 
 ---
 
-## 📊 Machine Learning Module
+## Machine Learning Module
 
 - Model: **Random Forest Classifier**
 - Input: Patient symptoms
 - Output: Predicted disease suggestion
 - Purpose: Assists doctors in accurate diagnosis
 
----
 
-## 🧪 How to Run the Project (High-Level)
-
-```bash
-# Clone the project
-git clone <your-repo-link>
-
-# Backend Setup
-cd backend
-npm install
-npm start
-
-# ML Model Server
-cd ml-model
-pip install -r requirements.txt
-python app.py
-
-# Frontend Setup
-cd frontend
-npm install
-npm start
